@@ -26,7 +26,8 @@ public class Main {
         //opdracht 13
         while (play) {
             //opdracht 14
-            System.out.println("Type 'x' om te stoppen\nType 'v' om te vertalen");
+            System.out.println("Type 'x' om te stoppen");
+            System.out.println("Type 'v' om te vertalen");
             String input = userInputScanner.nextLine();
             //opdracht 15
             if (input.equals("x")) {
